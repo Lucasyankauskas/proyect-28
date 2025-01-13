@@ -2,6 +2,9 @@
 import { Header } from './components/Header'
 import { Main } from './components/Main'
 import { Services } from './components/Services'
+import { TestimonialContainer } from './components/TestimonialContainer'
+import { Galery } from './components/Galery'
+import { Footer } from './components/Footer'
 
 function App() {
 
@@ -10,6 +13,9 @@ function App() {
       <Header />
       <Main />
       <Services />
+      <TestimonialContainer />
+      <Galery />
+      <Footer />
     </main>
   )
 }

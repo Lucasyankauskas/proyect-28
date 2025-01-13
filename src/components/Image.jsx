@@ -1,6 +1,6 @@
 
 
-export const Image = ({order, imgMobile, imgDesktop}) => {
+export const Image = ({order="", imgMobile, imgDesktop}) => {
   return (
     <picture className={order}>
         <source media="(max-width:639px)" srcSet={imgMobile} />
